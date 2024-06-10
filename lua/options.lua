@@ -11,3 +11,5 @@ vim.opt.swapfile = false -- creates a swap file
 vim.opt.termguicolors = true
 vim.opt.background = 'dark'
 vim.opt.colorcolumn = '88'
+
+vim.cmd.colorscheme 'catppuccin-mocha'
