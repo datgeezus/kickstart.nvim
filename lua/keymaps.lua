@@ -76,6 +76,10 @@ vim.keymap.set({ 'n', 'v' }, '<leader>y', [["+y]])
 vim.keymap.set('n', '<leader>Y', [["+Y]])
 vim.keymap.set({ 'n', 'v' }, '<leader>d', [["_d]])
 
+-- vertical scroll
+vim.keymap.set('n', '<C-d>', '<C-d>zz', opts)
+vim.keymap.set('n', '<C-u>', '<C-u>zz', opts)
+
 -- telescope
 vim.keymap.set('n', '<leader>ff', "<CMD>lua require('telescope.builtin').find_files()<CR>", opts)
 vim.keymap.set('n', '<leader>fg', "<CMD>lua require('telescope.builtin').live_grep()<CR>", opts)
