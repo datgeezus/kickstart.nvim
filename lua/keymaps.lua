@@ -64,7 +64,7 @@ vim.keymap.set('v', '/', '/\\v', opts_no_silent)
 vim.keymap.set('n', '<leader>s', ':split<CR>', opts)
 vim.keymap.set('n', '<leader>v', ':vsplit<CR>', opts)
 
-vim.keymap.set('n', '<leader><space>', ':nohlsearch<CR>', opts)
+vim.keymap.set('n', '<leader>cl', ':nohlsearch<CR>', opts)
 
 vim.keymap.set('n', ';', ':', opts_no_silent)
 vim.keymap.set('v', ';', ':', opts_no_silent)
